@@ -3,9 +3,9 @@ package com.blog.app.repositories;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.blog.app.dao.User;
+import com.blog.app.dao.Comment;
 
 @Repository
-public interface UserRepository extends JpaRepository<User, Integer> {
+public interface CommentRepository extends JpaRepository<Comment, Integer> {
 
 }
